@@ -16,7 +16,7 @@
 <h3>Prerequisites</h3>
 <p>Ensure you have the following software installed:</p>
 <ul>
-    <li>R (version 4.0 or higher)</li>
+    <li>R (version 3.0 or higher)</li>
     <li>RStudio (optional but recommended)</li>
     <li>Required R packages: <code>oddstream</code>, <code>dplyr</code>, <code>dplyr</code>, <code>SSN</code>, <code>FNN</code></li>
 </ul>
