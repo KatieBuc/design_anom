@@ -1,7 +1,7 @@
 <h1>Design and Anomaly Detection in River Networks</h1>
 
 <h2>Overview</h2>
-<p>This repository contains the code and data for the paper "Bayesian Design for Sampling Anomalous Spatio-Temporal Data"[^1]. The primary objective of this project is to develop a robust Bayesian optimal experimental design (BOED) framework with anomaly detection methods to ensure high-quality data collection. The framework involves anomaly generation, detection, and error scoring within the search for optimal designs. See below for implementation for two simulated case studies: a spatial dataset and a spatio-temporal river network dataset.</p>
+<p>This repository contains the code and data for the paper "Bayesian Design for Sampling Anomalous Spatio-Temporal Data" <a href="#footnote1" id="ref1">[1]</a>. The primary objective of this project is to develop a robust Bayesian optimal experimental design (BOED) framework with anomaly detection methods to ensure high-quality data collection. The framework involves anomaly generation, detection, and error scoring within the search for optimal designs. See below for implementation for two simulated case studies: a spatial dataset and a spatio-temporal river network dataset.</p>
 
 <h2>Repository Structure</h2>
 <pre>
@@ -49,5 +49,6 @@ cd design_anom
 
 <p>Thank you for using this repository! We hope you find it useful for your research and projects.</p>
 
+<p id="footnote1"><sup>1</sup> Buchhorn, Katie, et al. <i>"Bayesian Design for Sampling Anomalous Spatio-Temporal Data."</i> arXiv preprint arXiv:2403.10791 (2024). <a href="#ref1">↩</a></p>
 
 [^1]: Buchhorn, Katie, et al. _"Bayesian Design for Sampling Anomalous Spatio-Temporal Data."_ arXiv preprint arXiv:2403.10791 (2024).
