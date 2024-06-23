@@ -339,11 +339,10 @@ anomaly_score <- function(Y_d, B){
 utilpred <- function(d, B) {
   set.seed(seed+global_i)
   
-  # sample priors: FIXME make random from distribution
   nugget <- runif(B, min = 0.00001, max = 0.0001)
-  psill <- runif(B, min = 1, max = 1.5)
-  range <- runif(B, min = 2, max = 2.5)
-  phi <- runif(B, min = 5, max = 6)
+  psill <- rep(1.5,B)
+  range <- rep(2,B)
+  phi <- rep(1,B)
   betas <- rep(c(1,2), each=B)
   dim(betas) <- c(B,2)
   
