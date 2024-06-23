@@ -156,8 +156,8 @@ utilpred <- function(d, B, n_train=100) {
   set.seed(seed+global_i)
   n <- dim(d)[1]
   
-  phi <- runif(B, d_phi, e_phi)
-  tau2 <- abs(rnorm(B,0,c_tau2))
+  phi <- rep(1,B)
+  tau2 <- rep(1e-5,B)
   sig2 <- 1 / rgamma(n = B, shape = 0.5 * a_sig2, rate = 0.5 * b_sig2)
   
   # training data
